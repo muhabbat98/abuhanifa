@@ -1,14 +1,34 @@
 import React from 'react'
-import { AbuHanifaLogo, LogoContainer, MainNavbarComponent, NavbarContainer } from './style'
+import {
+  AbuHanifaLogo,
+  AddAbuHanifa,
+  LogoContainer,
+  MainNavbarComponent,
+  NameAbuHanifa,
+  NameContainer,
+  NavbarContainer,
+} from './style'
 import { Container } from '../../theme'
+import Navigation from './navigation'
+import Login from './login'
+import Logo from '../../assets/img/main-logo.png'
+import { Link } from 'react-router-dom'
 const Navbar: React.FC = () => {
   return (
     <MainNavbarComponent>
       <Container>
         <NavbarContainer>
-          <LogoContainer>
-            <AbuHanifaLogo />
-          </LogoContainer>
+          <Link to='/'>
+            <LogoContainer>
+              <AbuHanifaLogo src={Logo} />
+              <NameContainer>
+                <NameAbuHanifa> Abu Hanifa </NameAbuHanifa>
+                <AddAbuHanifa> Islom akademiyasi</AddAbuHanifa>
+              </NameContainer>
+            </LogoContainer>
+          </Link>
+          <Navigation />
+          <Login />
         </NavbarContainer>
       </Container>
     </MainNavbarComponent>
