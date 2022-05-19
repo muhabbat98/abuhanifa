@@ -33,7 +33,7 @@ const Login: React.FC = () => {
       </div>
       <LanguageContainer>
         <LanguageButton onClick={() => setOpen((prev) => !prev)}>
-          <Flag src={UZ} />
+          <Flag src={lang.find((l) => l.isMain)?.src} />
           {/* setOpen(false) */}
         </LanguageButton>
         <FlagList isActive={open} tabIndex={-1} onBlur={(e) => setOpen(false)}>

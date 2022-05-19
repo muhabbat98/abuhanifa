@@ -9,8 +9,8 @@ import {
   NavbarContainer,
 } from './style'
 import { Container } from '../../theme'
-import Navigation from './navigation'
-import Login from './login'
+import Navigation from './Navigation'
+import Login from './Login'
 import Logo from '../../assets/img/main-logo.png'
 import { Link } from 'react-router-dom'
 const Navbar: React.FC = () => {
