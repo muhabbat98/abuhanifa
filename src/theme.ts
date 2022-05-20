@@ -6,7 +6,7 @@ export const backgroundColor = theme('mode', {
 })
 
 export const Container = styled.div`
-  max-width: 1080px;
+  max-width: 1168px;
   margin: 0 auto;
   & a {
     text-decoration: none;
@@ -19,6 +19,7 @@ export const themeStyle = {
   grayBackground: 'rgba(126, 132, 140, 0.14)',
   grayBlueBackground: '#EFF2F3',
   borderRradius: '12px',
+  biggerRradius: '24px',
   mainFamily: `${'Inter'}, sans-serif`,
   paddingNavbar: '14px 0px',
   normalFontSize: '15px',
