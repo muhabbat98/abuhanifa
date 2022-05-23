@@ -42,7 +42,7 @@ export const Instruction = () => {
               forms using our 15+ form fields, logic and much more.
             </InstructionText>
           </InstructionDescription>
-          <LineBreak source={Line} />
+          <LineBreak source={Line} style={{ transform: 'rotateX(180deg)' }} />
         </InstructionList>
 
         <InstructionList>
@@ -59,7 +59,7 @@ export const Instruction = () => {
           <InstructionImageContainer>
             <InstructionImage src={InstructionSecond} />
           </InstructionImageContainer>
-          <LineBreak source={Line} style={{ transform: 'rotateX(180deg)' }} />
+          <LineBreak source={Line} />
         </InstructionList>
 
         <InstructionList>
@@ -77,7 +77,7 @@ export const Instruction = () => {
             </InstructionText>
           </InstructionDescription>
 
-          <LineBreak source={Line} style={{ transform: 'scaleX(-50%) skew(20deg)' }} />
+          <LineBreak source={Line} style={{ transform: 'scaleX(-0.5) skewY(10deg)' }} />
         </InstructionList>
       </Container>
     </InstructionComponent>
