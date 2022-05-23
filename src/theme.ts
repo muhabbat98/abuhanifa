@@ -8,6 +8,7 @@ export const backgroundColor = theme('mode', {
 export const Container = styled.div`
   max-width: 1168px;
   margin: 0 auto;
+  background-color: '#FCFCFC';
   & a {
     text-decoration: none;
   }
@@ -23,8 +24,10 @@ export const themeStyle = {
   mainFamily: `${'Inter'}, sans-serif`,
   paddingNavbar: '14px 0px',
   normalFontSize: '15px',
+  instructionFontSize: '18px',
   normalPadding: '10px',
   buttonPadding: '16px 40px',
   light: '#FCFCFC',
   black: 'rgba(26, 29, 31, 1)',
+  yellow: '#FAAD13',
 }

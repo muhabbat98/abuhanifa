@@ -35,9 +35,9 @@ export const VideoSection = () => {
               </VideoText>
             </VideoTextContainer>
           </VideoContainer>
+          <CountComponent />
         </Container>
       </VideoContainSection>
-      <CountComponent />
     </>
   )
 }

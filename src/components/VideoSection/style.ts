@@ -12,7 +12,7 @@ export const VideoContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-
+  padding: 130px 0px;
   /* align-items: center; */
 `
 export const VideoTextContainer = styled.div`
@@ -39,6 +39,7 @@ export const VideoText = styled.p`
 export const CountSection = styled.div`
   background-color: ${themeStyle.secondaryBlueColor};
   padding: 50px;
+  margin: 75px 0px;
   border-radius: ${themeStyle.biggerRradius};
 `
 export const CountList = styled.ul`
@@ -50,11 +51,28 @@ export const CountList = styled.ul`
 `
 export const CountElement = styled.li`
   display: inline-block;
-  padding: 0px 70px;
+  /* padding: 0px 70px; */
+  text-align: center;
   border-right: 1px solid ${themeStyle.gray};
+  width: 25%;
+  box-sizing: border-box;
   &:last-child {
     border-right: none;
   }
+  i {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-style: normal;
+    color: ${themeStyle.light};
+    margin-left: ${themeStyle.normalPadding};
+  }
+`
+export const CountHeader = styled.span`
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
 `
 export const CountLogo = styled.span`
   width: 30px;
@@ -63,5 +81,15 @@ export const CountLogo = styled.span`
   display: flex;
   justify-content: center;
   align-items: center;
+  & svg {
+    width: 20px;
+    height: 20px;
+  }
 `
-export const Count = styled.p``
+export const Count = styled.p`
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 32px;
+  color: ${themeStyle.light};
+`
