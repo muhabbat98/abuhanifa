@@ -52,16 +52,16 @@ export const NavigationList = styled.ul`
   margin: 0;
 `
 interface NavigationElemProps {
-  isActive: boolean
+  isActive?: boolean
 }
 export const NavigationElem = styled.li<NavigationElemProps>`
   display: inline-block;
   & a {
     font-size: ${themeStyle.normalFontSize};
     padding: ${themeStyle.normalPadding};
-    color: ${({ isActive }) => (isActive ? themeStyle.black : themeStyle.gray)};
+    /* color: ${({ isActive }) => (isActive ? themeStyle.black : themeStyle.gray)}; */
     border-radius: ${themeStyle.borderRradius};
-    background-color: ${({ isActive }) => (isActive ? themeStyle.light : 'transparent')};
+    /* background-color: ${({ isActive }) => (isActive ? themeStyle.light : 'transparent')}; */
     font-weight: 500;
     line-height: 18px;
     display: flex;

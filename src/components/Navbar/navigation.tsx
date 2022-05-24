@@ -1,32 +1,55 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { NavigationContainer, NavigationElem, NavigationIcon, NavigationList } from './style'
 import AboutLogo from '../../assets/img/about.svg'
 import BookLogo from '../../assets/img/book.svg'
 import StudyLogo from '../../assets/img/teacher.svg'
 import { useState } from 'react'
+import { themeStyle } from '../../theme'
 
 export default function Navigation() {
   const [active, setActive] = useState('home')
+
   return (
     <NavigationContainer>
       <NavigationList>
-        <NavigationElem isActive={active === 'home'}>
-          <Link to='/'>
+        <NavigationElem>
+          <NavLink
+            to='/'
+            style={({ isActive }) =>
+              isActive
+                ? { color: `${themeStyle.black}`, backgroundColor: `${themeStyle.light}` }
+                : { color: `${themeStyle.gray}`, backgroundColor: 'transparent' }
+            }
+          >
             <NavigationIcon src={AboutLogo} />
             Biz haqimizda
-          </Link>
+          </NavLink>
         </NavigationElem>
-        <NavigationElem isActive={active === 'about'}>
-          <Link to='/'>
+        <NavigationElem>
+          <NavLink
+            to='/courses'
+            style={({ isActive }) =>
+              isActive
+                ? { color: `${themeStyle.black}`, backgroundColor: `${themeStyle.light}` }
+                : { color: `${themeStyle.gray}`, backgroundColor: 'transparent' }
+            }
+          >
             <NavigationIcon src={BookLogo} />
             Akademiya darslari
-          </Link>
+          </NavLink>
         </NavigationElem>
-        <NavigationElem isActive={active === 'course'}>
-          <Link to='/'>
+        <NavigationElem>
+          <NavLink
+            to='/free'
+            style={({ isActive }) =>
+              isActive
+                ? { color: `${themeStyle.black}`, backgroundColor: `${themeStyle.light}` }
+                : { color: `${themeStyle.gray}`, backgroundColor: 'transparent' }
+            }
+          >
             <NavigationIcon src={StudyLogo} />
             Erkin kurslar
-          </Link>
+          </NavLink>
         </NavigationElem>
       </NavigationList>
     </NavigationContainer>

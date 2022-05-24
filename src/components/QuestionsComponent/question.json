@@ -1,0 +1,34 @@
+ { 
+     "questionList" : [
+        {
+            "id": 1,
+            "header": "Akademiyani tugatsam biror sertifikat beriladimi?",
+            "text": "Ha albatta, akademiya darsliklarining birortasini (4ta bosqichda) tugatganingizda sizga Imom Abu Hanifa akademiyasi tomonidan sertifikat beriladi. Akademiyaning 6 ta darslariklarining barchasini yakullaganingizda esa sizga diplom taqdim etiladi."
+        },
+        {
+            "id": 2,
+            "header": "Kurslar uchun to’lovni qanday amalga oshiraman?",
+            "text": "Ha albatta, akademiya darsliklarining birortasini (4ta bosqichda) tugatganingizda sizga Imom Abu Hanifa akademiyasi tomonidan sertifikat beriladi. Akademiyaning 6 ta darslariklarining barchasini yakullaganingizda esa sizga diplom taqdim etiladi."
+        },
+        {
+        "id": 3,
+        "header": "Bir vaqtda 2 ta darslikni o‘qisa bo‘ladimi?",
+        "text": "Ha albatta, akademiya darsliklarining birortasini (4ta bosqichda) tugatganingizda sizga Imom Abu Hanifa akademiyasi tomonidan sertifikat beriladi. Akademiyaning 6 ta darslariklarining barchasini yakullaganingizda esa sizga diplom taqdim etiladi."
+        },
+        {
+            "id": 4,
+            "header": "Diplom onlayn ko‘rinishda bo‘ladimi?",
+            "text": "Ha albatta, akademiya darsliklarining birortasini (4ta bosqichda) tugatganingizda sizga Imom Abu Hanifa akademiyasi tomonidan sertifikat beriladi. Akademiyaning 6 ta darslariklarining barchasini yakullaganingizda esa sizga diplom taqdim etiladi."
+        },
+        {
+            "id": 5,
+            "header": "Uyga vazifalarni qanday topshiraman?",
+            "text": "Ha albatta, akademiya darsliklarining birortasini (4ta bosqichda) tugatganingizda sizga Imom Abu Hanifa akademiyasi tomonidan sertifikat beriladi. Akademiyaning 6 ta darslariklarining barchasini yakullaganingizda esa sizga diplom taqdim etiladi."
+        },
+        {
+            "id": 6,
+            "header": "Ustozsiz, o‘zim ham ta‘lim olsam bo‘ladimi?",
+            "text": "Bu yerda Imom Abu Hanifa akademiyasiga ko‘p marta, takroran beriladigan savollarga javoblar keltirilgan. Sizning ham biror savolingiz bo’lsa akademiya@info.uz pochtasiga yuboring"
+        }
+  ]
+}

@@ -75,3 +75,18 @@ export const LineBreak = styled.div<LineBreakProps>`
   background: no-repeat url(${({ source }) => source});
   z-index: 5;
 `
+export const EndPart = styled.div`
+  max-width: 460px;
+  margin: 0 auto;
+`
+export const EndPartLogo = styled.div`
+  /* max-width: 460px; */
+  text-align: center;
+  & svg {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(250, 173, 19, 0.1);
+    border-radius: 50%;
+    padding: 16px;
+  }
+`
