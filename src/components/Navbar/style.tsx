@@ -59,9 +59,7 @@ export const NavigationElem = styled.li<NavigationElemProps>`
   & a {
     font-size: ${themeStyle.normalFontSize};
     padding: ${themeStyle.normalPadding};
-    /* color: ${({ isActive }) => (isActive ? themeStyle.black : themeStyle.gray)}; */
     border-radius: ${themeStyle.borderRradius};
-    /* background-color: ${({ isActive }) => (isActive ? themeStyle.light : 'transparent')}; */
     font-weight: 500;
     line-height: 18px;
     display: flex;

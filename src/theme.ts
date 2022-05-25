@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const themeStyle = {
   primaryBlueColor: '#00BCD4',
   secondaryBlueColor: '#094062',
+  darkBlueColor: '#091B3D;',
   grayishBlue: '#687497',
   gray: '#7E848C',
   grayBackground: 'rgba(126, 132, 140, 0.14)',

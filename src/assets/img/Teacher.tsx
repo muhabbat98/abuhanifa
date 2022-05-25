@@ -1,8 +1,8 @@
 import React from 'react'
 
 interface BookProps {
-  fill: string
-  stroke: string
+  fill?: string
+  stroke?: string
 }
 
 export const Teacher: React.FC<BookProps> = ({ fill, stroke }) => {
