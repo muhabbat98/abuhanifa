@@ -32,4 +32,5 @@ export const themeStyle = {
   light: '#FCFCFC',
   black: 'rgba(26, 29, 31, 1)',
   yellow: '#FAAD13',
+  white: '#FFFFFF',
 }
