@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Video } from '../../../assets/img/Video'
 import PdfComponent from '../../../components/PdfComponent'
@@ -27,7 +27,10 @@ import {
 
 export const Lessons = () => {
   const { subjectId } = useParams()
-  console.log(subjectId)
+  // console.log(subjectId)
+  useEffect(() => {
+    console.log('subject', subjectId)
+  }, [])
   return (
     <LessonComponent>
       <Container>

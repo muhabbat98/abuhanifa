@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Sertification } from './Sertification'
 import {
   AbuHanifaDescription,
@@ -10,6 +11,7 @@ import {
 } from './style'
 
 export const AbuHanifaSection = () => {
+  const navigate = useNavigate()
   return (
     <>
       <Section>
@@ -24,7 +26,7 @@ export const AbuHanifaSection = () => {
           </AbuHanifaDescription>
           <ButtonSection>
             <MainButton>Akademiyada o‘qish</MainButton>
-            <MainButton>Kurslarni ko‘rish</MainButton>
+            <MainButton onClick={() => navigate('courses')}>Kurslarni ko‘rish</MainButton>
           </ButtonSection>
         </MiniContainer>
       </Section>

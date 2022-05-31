@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from '../../theme'
-import { MiniContainer } from '../AbuHanifaSection/style'
 import {
   EndPart,
   EndPartLogo,
@@ -20,7 +19,6 @@ import InstructionSecond from '../../assets/img/Instruction-2.png'
 import InstructionThird from '../../assets/img/Instruction-3.png'
 
 import Line from '../../assets/img/Line.svg'
-import { Briefcase } from '../../assets/img/Briefcase'
 
 export const Instruction = () => {
   return (

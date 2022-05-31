@@ -25,11 +25,11 @@ export const VideoContainer = styled.div`
 `
 export const LessonListContainer = styled.div`
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 5;
 `
 export const LessonsTextContainer = styled.div`
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 5;
 `
 
 //  #################################################   Lesson List ############################################
@@ -176,4 +176,10 @@ export const LessonButton = styled.button`
 
 // ############################################ LESSON TEXT ############################################
 
-export const LessonTextHeader = styled.h2``
+export const LessonTextHeader = styled.h2`
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+  max-width: 435px;
+`

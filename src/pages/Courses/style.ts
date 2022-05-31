@@ -11,4 +11,5 @@ export const CoursesHeader = styled.h2`
   font-size: 36px;
   line-height: 44px;
   color: ${themeStyle.darkBlueColor};
+  margin-bottom: 16px;
 `

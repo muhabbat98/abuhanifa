@@ -29,7 +29,7 @@ export const CourseComponent = () => {
     <CourseContainer>
       {/* Course beginning */}
       <Course>
-        <Link to='/'>
+        <Link to='1'>
           <CourseLogoContainer>
             <CourseLogo src={PenIcon} />
             <CourseButton>
@@ -62,17 +62,16 @@ export const CourseComponent = () => {
                 <InfoText>5234 talaba</InfoText>
               </Info>
               <Info>
-                {/* <Link to='/'> */}
                 <img src={ArrowIcon} alt='arrow' />
-                {/* </Link> */}
               </Info>
             </AdditionalInfo>
           </AdditionalInfoContainer>
         </Link>
       </Course>
       {/* Course ending */}
+
       <Course>
-        <Link to='/'>
+        <Link to='2'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
             <CourseButton>
@@ -105,9 +104,7 @@ export const CourseComponent = () => {
                 <InfoText>5234 talaba</InfoText>
               </Info>
               <Info>
-                {/* <Link to='/'> */}
                 <img src={ArrowIcon} alt='arrow' />
-                {/* </Link> */}
               </Info>
             </AdditionalInfo>
           </AdditionalInfoContainer>

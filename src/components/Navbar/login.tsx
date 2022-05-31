@@ -36,7 +36,7 @@ const Login: React.FC = () => {
           <Flag src={lang.find((l) => l.isMain)?.src} />
           {/* setOpen(false) */}
         </LanguageButton>
-        <FlagList isActive={open} tabIndex={-1} onBlur={(e) => setOpen(false)}>
+        <FlagList isActive={open} tabIndex={-1} onBlur={() => setOpen(false)}>
           {lang.map((l) => (
             <FlagElement key={l.text}>
               <FlagButton

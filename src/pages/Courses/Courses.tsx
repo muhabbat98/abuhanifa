@@ -5,6 +5,7 @@ import { Container } from '../../theme'
 import { CoursesHeader, CoursesComponent } from './style'
 
 export const Courses = () => {
+  // console.log('course')
   return (
     <>
       <CoursesComponent>

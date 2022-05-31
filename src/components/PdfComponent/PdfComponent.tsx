@@ -1,6 +1,15 @@
 import React from 'react'
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer'
+import PDFViewer from 'pdf-viewer-reactjs'
+import { FileComponent } from './style'
 
 export const PdfComponent = () => {
-  return <div>PdfComponent</div>
+  return (
+    <FileComponent>
+      <PDFViewer
+        document={{
+          url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
+        }}
+      />
+    </FileComponent>
+  )
 }

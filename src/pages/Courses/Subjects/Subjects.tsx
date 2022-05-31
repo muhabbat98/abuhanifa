@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import SubjectCard from '../../../components/SubjectCard'
 import { Container } from '../../../theme'
@@ -7,7 +7,10 @@ import { LessonsContainer, LoadButton } from './style'
 
 export const Subjects = () => {
   const { subjectId } = useParams()
-  console.log(subjectId)
+
+  useEffect(() => {
+    // console.log('subject', subjectId)
+  }, [])
   return (
     <CoursesComponent>
       <Container>

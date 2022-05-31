@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export const SubjectCard = () => {
   return (
     <LessonCartComponent>
-      <Link to='/'>
+      <Link to='1'>
         <CartImg>
           <img src={Lesson1} alt='lesson' />
         </CartImg>
