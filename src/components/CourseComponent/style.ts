@@ -31,6 +31,9 @@ export const CourseButton = styled.button`
   outline: none;
   background-color: transparent;
   cursor: pointer;
+  /* &:img {
+    width: 100%;
+  } */
 `
 
 export const CourseName = styled.h3`

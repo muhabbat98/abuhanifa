@@ -19,12 +19,14 @@ import PenIcon from '../../assets/img/pen.svg'
 import InfoIcon from '../../assets/img/Button.svg'
 import ArrowIcon from '../../assets/img/arrow-right.svg'
 import AnnounceIcon from '../../assets/img/announce.svg'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { Book } from '../../assets/img/Book'
 import { Clock } from '../../assets/img/Clock'
 import { Teacher } from '../../assets/img/Teacher'
 
 export const CourseComponent = () => {
+  const params = useParams()
+  // console.log(params)
   return (
     <CourseContainer>
       {/* Course beginning */}
@@ -62,14 +64,15 @@ export const CourseComponent = () => {
                 <InfoText>5234 talaba</InfoText>
               </Info>
               <Info>
+                {/* <Link to='/'> */}
                 <img src={ArrowIcon} alt='arrow' />
+                {/* </Link> */}
               </Info>
             </AdditionalInfo>
           </AdditionalInfoContainer>
         </Link>
       </Course>
       {/* Course ending */}
-
       <Course>
         <Link to='2'>
           <CourseLogoContainer>
@@ -104,7 +107,9 @@ export const CourseComponent = () => {
                 <InfoText>5234 talaba</InfoText>
               </Info>
               <Info>
+                {/* <Link to='/'> */}
                 <img src={ArrowIcon} alt='arrow' />
+                {/* </Link> */}
               </Info>
             </AdditionalInfo>
           </AdditionalInfoContainer>

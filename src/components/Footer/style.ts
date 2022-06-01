@@ -6,6 +6,7 @@ export const FooterComponent = styled.div`
   /* min-height: 200px; */
   width: 100%;
   margin-top: auto;
+  padding-top: 36px;
 `
 export const FooterGroup = styled.div`
   display: flex;

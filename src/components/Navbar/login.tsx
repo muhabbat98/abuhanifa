@@ -16,6 +16,7 @@ import RU from '../../assets/img/ru.png'
 import ENG from '../../assets/img/us.png'
 
 import LoginImg from '../../assets/img/login.svg'
+import LoginModal from '../LoginModal'
 const Login: React.FC = () => {
   const [lang, setLang] = useState([
     { text: 'Uz', isMain: false, src: UZ },
@@ -23,13 +24,16 @@ const Login: React.FC = () => {
     { text: 'USA', isMain: true, src: ENG },
   ])
   const [open, setOpen] = useState(false)
+  const [modal, setModal] = useState(false)
+
   return (
     <LoginContainer>
       <div>
-        <LoginButton>
+        <LoginButton onClick={() => setModal(true)}>
           <NavigationIcon src={LoginImg} />
           Kirish
         </LoginButton>
+        {modal ? <LoginModal setModal={setModal} /> : <></>}
       </div>
       <LanguageContainer>
         <LanguageButton onClick={() => setOpen((prev) => !prev)}>

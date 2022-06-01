@@ -17,6 +17,9 @@ import PenIcon from '../../assets/img/pen.svg'
 import InfoIcon from '../../assets/img/Button.svg'
 import ArrowIcon from '../../assets/img/arrow-right.svg'
 import AnnounceIcon from '../../assets/img/announce.svg'
+import HeadPot from '../../assets/img/headset.svg'
+import Pensil from '../../assets/img/pencil.svg'
+
 import { Link } from 'react-router-dom'
 import { Book } from '../../assets/img/Book'
 import { FreeContainer } from './style'
@@ -28,14 +31,8 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={PenIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Husnixat</CourseName>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -58,14 +55,9 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Qiroat qilish</CourseName>
+
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -87,15 +79,9 @@ export const FreeComponent = () => {
       <Course style={{ width: 'auto' }}>
         <Link to='/'>
           <CourseLogoContainer>
-            <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
+            <CourseLogo src={Pensil} />
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Islom moliyasi</CourseName>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -119,14 +105,8 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Balog‘at darslari</CourseName>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -150,14 +130,8 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Tajvid ilmi</CourseName>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -181,14 +155,8 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
-          <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
+          <CourseName>Arab tili</CourseName>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
@@ -212,14 +180,8 @@ export const FreeComponent = () => {
         <Link to='/'>
           <CourseLogoContainer>
             <CourseLogo src={AnnounceIcon} />
-            <CourseButton>
-              <img src={InfoIcon} alt='about course' />
-            </CourseButton>
           </CourseLogoContainer>
           <CourseName>Adoid</CourseName>
-          <CourseDegreeContainer>
-            <CourseDegree>2-bosqich</CourseDegree>
-          </CourseDegreeContainer>
           <AdditionalInfoContainer>
             <AdditionalInfo style={{ justifyContent: 'space-between' }}>
               <Info>
