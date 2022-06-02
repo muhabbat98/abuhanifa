@@ -19,13 +19,13 @@ import PenIcon from '../../assets/img/pen.svg'
 import InfoIcon from '../../assets/img/Button.svg'
 import ArrowIcon from '../../assets/img/arrow-right.svg'
 import AnnounceIcon from '../../assets/img/announce.svg'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Book } from '../../assets/img/Book'
 import { Clock } from '../../assets/img/Clock'
 import { Teacher } from '../../assets/img/Teacher'
 
 export const CourseComponent = () => {
-  const params = useParams()
+  // const params = useParams()
   // console.log(params)
   return (
     <CourseContainer>

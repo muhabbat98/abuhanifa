@@ -3,9 +3,6 @@ import {
   AdditionalInfo,
   AdditionalInfoContainer,
   Course,
-  CourseButton,
-  CourseDegree,
-  CourseDegreeContainer,
   CourseLogo,
   CourseLogoContainer,
   CourseName,
@@ -14,10 +11,8 @@ import {
   InfoText,
 } from '../CourseComponent/style'
 import PenIcon from '../../assets/img/pen.svg'
-import InfoIcon from '../../assets/img/Button.svg'
 import ArrowIcon from '../../assets/img/arrow-right.svg'
 import AnnounceIcon from '../../assets/img/announce.svg'
-import HeadPot from '../../assets/img/headset.svg'
 import Pensil from '../../assets/img/pencil.svg'
 
 import { Link } from 'react-router-dom'
